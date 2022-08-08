@@ -1,0 +1,65 @@
+#sobreMim {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-shadow: black 4px 4px 10px;
+    background: #161622;
+
+    padding: 20vh 0vh 20vh 0vh;
+}
+
+#sobreMim h2 {
+    font-size: 2.5em;
+    letter-spacing: 4px;
+}
+
+
+#sobreMim p {
+    font-size: 1.5em;
+    padding: 0px 150px 20px 150px;
+
+}
+
+#div-sobreMim {
+    padding-bottom: 150px;
+}
+
+#sobreMim span {
+    font-size: 1.2em;
+}
+
+.div-imagem {
+    margin: 0 35px; 
+    display: inline;
+}
+
+.div-imagem img {
+    border-radius: 20px;
+    filter: grayscale(100%) blur(2.5px) drop-shadow(15px 10px 10px #000000);
+}
+
+.div-imagem img:hover {
+    box-shadow: 15px 10px 30px  rgba(120, 2, 255, 0.534);
+    transition: 0.7s;
+    filter: none;
+}
+
+
+.perfil {
+    border-radius: 50%;
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+
+    box-shadow: 15px 10px 10px  rgba(0, 0, 0, 0.534) ;
+}
+
+div.imgMatheus img {
+    display: inline;
+    width: 300px;
+    height: 450px;
+    margin: 0 10px;
+}
+
+div.imgMatheus {
+    margin-top: 8vh;
+}

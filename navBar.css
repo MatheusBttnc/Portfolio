@@ -1,0 +1,72 @@
+
+ul.navBar {
+	text-align: center;
+    display: none;
+    justify-content: center;
+    padding-top: 30%;
+	background-color:  rgba(111, 1, 238, 0.315);
+    border-bottom:  rgba(120, 2, 255, 0.815) solid;
+    backdrop-filter: blur(5px);
+	position: fixed;
+	top: 0;
+}
+ul.navBar li {
+	display: flex;
+    background-color: rgba(39, 4, 104, 0.918);
+    padding: 0 3vh;
+}
+ul.navBar li a {
+	display: inline-block;
+	padding: 5px 15px;
+	margin: 30px 5px;
+	color: white;
+	font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 10px 5px 5px black;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+
+ul.navBar li a:hover {
+	background: rgba(0,0,0,.2);
+	border-radius: 10px 10px 25px 25px;
+    transition: 0.3s;
+    color: rgba(2, 255, 23, 0.712);
+}
+
+
+
+.aba-navBar {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    display: none;
+
+    background-color: rgba(118, 9, 151, 0.753);
+    border-radius: 50px;
+    border: rgb(0, 128, 32) solid;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.aba-navBar p {
+    margin-top: 23px;
+}
+
+#white-bar-div {
+    padding-left: 1px;
+}
+
+.white-bar {
+    height: 3px;
+    width: 28px;
+    background-color: white;
+    margin: 10px;
+}
+
+

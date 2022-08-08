@@ -1,0 +1,11 @@
+body {
+    height: auto;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(244, 239, 255, 0.993);
+    position: relative;
+}
+
+body a {
+    text-decoration: none;
+}

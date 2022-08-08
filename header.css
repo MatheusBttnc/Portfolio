@@ -1,0 +1,96 @@
+
+
+header {
+    width: auto;
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.saida {
+    animation: blinkCursor 700ms infinite normal;
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: rgb(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+header .saida {
+    font-size: 20px;
+    padding: 0px 0px 0px 30px;
+    font-family: monospace;
+
+    border-right: 2px solid rgb(255, 255, 255, 0.75);
+}
+
+header .gradient {
+    height: 100%;
+    width: auto;
+    background: linear-gradient(#12121200, #161622);
+    text-align: center;
+}
+
+header .gradient h1 {
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(255, 250, 250);
+    text-shadow: 4px 4px 15px rgb(0, 0, 0);
+    letter-spacing: 3px;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    padding: 300px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+header .gradient .sombra-verde {
+    text-shadow: 4px 4px 15px rgb(74, 255, 3);
+}
+
+ul {
+	text-align: center;
+	width: 100%;
+	background-color:  rgba(120, 2, 255, 0.315);
+    border-bottom:  rgba(120, 2, 255, 0.815) solid;
+    backdrop-filter: blur(5px);
+	position: fixed;
+	top: 0;
+}
+ul li {
+	display: inline-block;
+}
+ul li a {
+	display: inline-block;
+	padding: 5px 15px;
+	margin: 30px 5px;
+	color: white;
+	font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 10px 5px 5px black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: monospace;
+}
+
+ul li a:hover {
+	background: rgba(0,0,0,.2);
+	border-radius: 10px 10px 25px 25px;
+    transition: 0.3s;
+    color: rgba(2, 255, 23, 0.712);
+}
+

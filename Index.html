@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sobreMim.css">
+    <link rel="stylesheet" href="projetos.css">
+    <link rel="stylesheet" href="habilidades.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="animate.css">
+    <title>Portfólio</title>
+</head>
+<body>
+
+
+    
+    
+    <!-- A BARRA DE MENU ESTÁ LÁ EMBAIXO NA ULTIMA LINHA PARA SOBREPOR TODAS AS IMAGENS. FOI O UNICO JEITO QUE ENCONTREI DE FAZE-LA FICAR POR CIMA-->
+
+    <header>
+
+
+        <div class="gradient"><h1>Olá, me chamo <span class="sombra-verde">Matheus Bittencourt</span>. Sou um desenvolvedor Front-End!</h1></div>
+        <span class="saida"></span>
+    </header>
+    
+
+    <!-- SOBRE MIM -->
+
+    <section id="sobreMim">
+            <div id="div-sobreMim">
+                <h2>Sobre mim</h2>
+                <img src="img/MeuAvatar.png" alt="Minha avatar" class="perfil">
+                    <p>Olá, me chamo Matheus Bittencourt e sou um desenvolvedor Front End em formação. Comecei na programação aos 16 anos de idade e fiquei um certo tempo longe dos códigos. Voltei a programar em 2021, aos 18 anos de idade. Hoje, com 19 anos, estou cursando Análise e Desencvolvimento de Sistemas na Universidade Santo Amaro(UNISA) e em busca de uma oportunidade de esprego na área da programação.</p>
+                    <p>Sou fascinado por jogos digitais, tanto pelos códigos quanto pelo design de personagens e trilhas sonoras. Leio bastante. Perceberá que gosto muito da cor roxa, de animais e natureza. Prezo muito o trabalho em equipe e a solidariedade entre o coletivo - de fato, a união faz a força!</p>
+                    <p>Sonho em me tornar designer de games e um gamedev muito talentoso em alguns anos, mas dou um passo de cada vez. Essa foi minha breve apresentação, espero que tenha gostado. Aceito críticas que podem ser enviadas nas minhas redes sociais - que se encontram no fim da página.</p>
+                    <p>Aproveite o portfólio!</p>
+            </div>
+
+            <div>    
+            <span>Interaja com as imagens abaixo!</span data-anime="top">
+            <div class="imgMatheus">
+                <div class="div-imagem"><a href="https://www.pexels.com/pt-br/foto/abundancia-fartura-riqueza-aroma-7244361/" target="_blank"><img src="img/pexels-campo.jpeg" alt="campo com plantas roxas"></a></div>
+                <div class="div-imagem"><a href="https://www.pexels.com/pt-br/foto/essencia-aromatico-perfumado-cheiroso-5071515/" target="_blank"><img src="img/pexels-planta.jpeg" alt="plantas roxas em um livro"></a></div>
+                <div class="div-imagem"><a href="https://www.pexels.com/pt-br/foto/flor-de-petala-roxa-2526097/" target="_blank"><img src="img/pexels-flor.webp" alt="flor roxa"></a></div>
+            </div>
+    </section>
+
+    <!-- HABILIDADES-->
+    <section id="habilidades">
+        <h2 data-anime="top">Habilidades</h2>
+        <h3 data-anime="left">Essas são as habilidades que adquiri com o passar dos meses, linguagens de programação e tecnologias que escolhi investir meu tempo e estudo. Na ordem, aprendi HTML5, CSS3, JavaScript, jQuery, Git e SQL Server. No momento, tenho me empenhado em aprender React.js e aplicando cada vez mais meus conhecimentos em JavaScript. Em breve aprenderei Next.js.</h3>
+
+        <div id="habilidades-info" data-anime="top">
+            <div class="habilidades-pics">
+                <div class="hab-pic" id="item-html"><img src="img/file_type_html_icon_130541.png" alt=""></div>
+                <div class="hab-pic" id="item-css"><img src="img/file_type_css_icon_130661.png" alt=""></div>
+                <div class="hab-pic" id="item-javascript"><img src="img/javascript_icon_130900.png" alt=""></div>  
+                <div class="hab-pic" id="item-jquery"><img src="img/jquery_plain_wordmark_logo_icon_146445.png" alt=""></div>
+                <div class="hab-pic" id="item-git"><img src="img/git_plain_wordmark_logo_icon_146508.png" alt=""></div>
+                <div class="hab-pic" id="item-sqlserver"><img src="img/icon_sql_256_30046.png" alt=""></div> 
+            </div>
+            <div id="barra-digitacao" data-anime="right">
+                <p id="html-info">HTML5</p>
+                
+                <p id="css-info">CSS3</p>
+
+                <p id="javascript-info">JavaScript</p>
+
+                <p id="jquery-info">jQuery</p>
+
+                <p id="git-info">Git</p>
+
+                <p id="sqlserver-info">SQL Server</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos">
+        <h2 data-anime="top">Meus projetos</h2>
+        <div class="grid-container" data-anime="left">
+            <a href="https://github.com/MatheusBttnc/Botao-DarkMode.git" target="_blank"><div class="grid-item" id="item1"><img src="img/darkmode_img.png" alt="Imagem do projeto Dark Mode"><br><br>Botão Dark Mode</div></a>
+            <a href="https://github.com/MatheusBttnc/Tabela-periodica.git" target="_blank"><div class="grid-item" id="item2"><img src="img/tabelaperiodica-img.png" alt="Imagem do projeto Tabela periódica"><br><br>Tabela periódica</div></a>
+            <a href="https://github.com/MatheusBttnc/Sistema-de-multas.git" target="_blank"><div class="grid-item" id="item3"><img src="img/multas-img.png" alt="Imagem do projeto de sistema de multas"><br><br>Sistema de multas</div></a>
+            <div class="grid-item" id="item4"><img src="img/em-breve.png" alt="Em breve!"><br><br>???</div>
+            <div class="grid-item" id="item5"><img src="img/em-breve.png" alt="Em breve!"><br><br>???</div>
+            <div class="grid-item" id="item6"><img src="img/em-breve.png" alt="Em breve!"><br><br>???</div>  
+          </div>
+          <div id="btn-ver-mais"><p id="ver-mais">Ver mais</p> <p id="ver-menos">Ver menos</p>
+        </div>
+
+        <section id="contato" data-anime="top">
+            <div class="github-linkedin">
+                <div id="github-img">
+                    <span>
+                        <a href="https://github.com/MatheusBttnc" target="_blank">
+                            .<img src="img/4202098codedevelopergithublogo-115590_115711.png" alt="">.
+                        </a>
+                    </span>
+                </div>
+                <div id="linkedin-img">
+                    <span>
+                        <a href="https://www.linkedin.com/in/matheus66680/" target="_blank">
+                            .<img src="img/linkedin_icon-icons.com_65929.png" alt="">.
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="wpp-email">
+                <div class="wpp">
+                    <p><img src="img/Whatsapp_37229 (1).png" alt=""> (11) 9 1111-0068</p>
+                </div>
+                <div class="email">
+                    <p><img src="img/Gmail_29991 (1).png" alt=""> bittencourtmatheus341@gmail.com</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <p>Portfólio totalmente feito apenas por mim, <a href="https://www.linkedin.com/in/matheus66680"><span>Matheus Bittencourt</span></a></p>
+        <p>Avatar da imagem de perfil feito no site <a href="https://avatarmaker.com"><span>www.avatarmaker.com</span></a></p>
+        <p>Todas as imagens retiradas do site <a href="https://www.pexels.com/pt-br/"><span>www.pexels.com</span></a></p>
+    </footer>
+
+
+    
+
+    <!--ESSA AQUI É A BARRA DE MENU-->
+
+    <nav>
+        <ul class="navBar">
+            <div id="slide-div">
+                <div class="slide-bar">
+                    <li><a href="#sobreMim" class="slide-divNav">Sobre mim</a></li>
+                    <li><a href="#habilidades" class="slide-divNav">Habilidades</a>
+                    </li>
+                    <li><a href="#projetos" class="slide-divNav">Projetos</a></li>
+                    <li><a href="#contato" class="slide-divNav">Contato</a></li>
+                </div>
+            </div>
+        </ul>
+    </nav>
+
+    <div>
+        <div class="aba-navBar">
+            <div id="white-bar-div">
+                <div class="white-bar"></div>
+                <div class="white-bar"></div>
+                <div class="white-bar"></div>
+            </div>
+        </div>
+    </div>
+    
+    <nav>
+        <ul class="navBar2">
+            <div class="div-li">
+                <li><a href="#sobreMim" class="divNav">Sobre mim</a></li>
+                <li><a href="#habilidades" class="divNav">Habilidades</a></li>
+                <li><a href="#projetos" class="divNav">Projetos</a></li>
+                <li><a href="#contato" class="divNav">Contato</a></li>
+            </div>
+        </ul>
+
+        
+    </nav>
+
+    
+
+    
+
+    <script src="jquery/jquery-3.6.0.js"></script>
+    <script src="navbar.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

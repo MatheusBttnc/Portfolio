@@ -1,0 +1,186 @@
+@media(max-width: 1420px) {
+    #habilidades-info {
+    display: block;
+    }
+
+    .habilidades-pics {
+        padding-bottom: 50px;
+    }
+
+    #barra-digitacao {
+        margin: auto;
+        padding: 0px;
+        height: 60px;
+        border-radius: 15px;
+        box-shadow: none;
+        padding-top: 10px;
+        border: rgba(106, 0, 245, 0.973) solid;
+        background-color:  rgba(106, 0, 245, 0.185);
+        
+    }
+}
+
+@media(max-width: 1180px) {
+    div.imgMatheus img {
+        width: 250px;
+        height: 400px;
+    }
+}
+
+@media(max-width: 1100px) {
+    div.grid-container {
+        grid-gap: 50px 25px;
+    }
+}
+
+@media(max-width: 1030px) {
+    div.imgMatheus img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .div-imagem {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+
+    #sobreMim {
+        padding-bottom: 6vh;
+    }
+
+}
+
+@media(max-width: 980px) {
+    header .gradient h1 {
+        padding: 100px;
+    }
+    
+    div.grid-container {
+        grid-gap: 50px 5px;
+    }
+
+    img.perfil {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media(max-width: 910px) {
+    .grid-container {
+        grid-template-columns: none;
+        grid-template-rows: auto auto auto;
+    }
+}
+
+@media(max-width: 770px) {
+    #sobreMim p {
+        padding: 0px 50px 20px 50px;
+    }
+
+
+    
+#habilidades h3 {
+    padding: 0px 50px 80px 50px;
+    }
+}
+
+@media(max-width: 755px) {
+    ul.navBar {
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    ul li a {
+        padding: 10px 20px;
+	    margin: 5px 5px;
+    }
+}
+
+@media(max-width: 645px) {
+    div.habilidades-pics {
+        grid-gap: 30px 50px;
+    }
+
+    div#barra-digitacao {
+        width: 300px;
+    }
+     
+}
+
+@media(max-width: 601px) {
+    .div-li {
+        display: none;
+    }
+
+    ul.navBar {
+        background-color: rgba(120, 2, 255, 0.678);
+        border-bottom: none;
+        backdrop-filter: none;
+        justify-content: left;
+
+        width: auto;
+        height: 100vh;
+        display: flex;
+    }
+
+    ul.navBar2 {
+        display: none;
+    }
+
+
+
+    header .gradient h1 {
+        padding: 20px;
+        font-size: 28px;
+
+    }
+
+    .aba-navBar {
+        display: block;
+    }
+}
+
+@media(max-width: 570px) {
+    img.perfil {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media(max-width: 435px) {
+    div.habilidades-pics {
+        grid-gap: 10px 10px;
+    }
+
+    .hab-pic img {
+        width: 65px;
+        height: 65px;
+    }
+
+    div#barra-digitacao {
+        width: 250px;
+    }
+
+    .hab-pic {
+        padding: 20px 2px 0px 2px;
+    }
+}
+
+@media(max-width: 415px) {
+    div#barra-digitacao {
+        width: 180px;
+    }
+    
+}
+
+@media(max-width: 365px) {
+    div.habilidades-pics {
+        grid-gap: 30px 0px;
+    }
+    
+    #contato p {
+        font-size: 17px;
+    }
+}

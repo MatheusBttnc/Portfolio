@@ -1,0 +1,18 @@
+#contato {
+    padding-top: 15vh;
+    text-align: center;
+}
+
+#contato span {
+    color: rgba(28, 2, 41, 0)
+}
+
+#contato p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-top: 3vh;
+}
+
+.github-linkedin {
+    display: inline-flex;
+}
