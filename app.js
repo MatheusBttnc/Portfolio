@@ -15,7 +15,7 @@ $(document).ready(function() {
 	$('#javascript-info').hide()
 	$('#jquery-info').hide()
 	$('#git-info').hide()
-	$('#sqlserver-info').hide()
+	$('#reactjs-info').hide()
 //------------------------------------------------
 	$('.navBar').hide()
 
@@ -83,11 +83,11 @@ $(document).ready(function() {
 		$('#git-info').fadeOut(0050);
 	});
 	//------------------------------------------------
-	$('#item-sqlserver').mouseenter(function() {
-		$('#sqlserver-info').fadeIn(0050);
+	$('#item-reactjs').mouseenter(function() {
+		$('#reactjs-info').fadeIn(0050);
 	});
-	$('#item-sqlserver').mouseleave(function() {
-		$('#sqlserver-info').fadeOut(0050);
+	$('#item-reactjs').mouseleave(function() {
+		$('#reactjs-info').fadeOut(0050);
 	});
 	//------------------------------------------------
 	$('.aba-navBar').click(function() {
